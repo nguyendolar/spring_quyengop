@@ -186,7 +186,7 @@ public class UserController {
         if (user != null){
             String link = "http://localhost:8080/user/forgot-password/" + user.getId();
             String html = "<div  class=\"container-fluid\" style=\"text-align: center\">\n" +
-                    "    <p style=\"font-size: 20px;font-weight: bold;color: #aaa;margin-top: 10px\">Nhấn vào <a href="+link+" style=\\\"color: white;text-decoration: none\\\">đây</a> để cấp lại mật khẩu mới</p>\n" +
+                    "    <p style=\"font-size: 20px;font-weight: bold;color: #aaa;margin-top: 10px\">Click <a href="+link+" style=\\\"color: white;text-decoration: none\\\">here</a> to reset password</p>\n" +
                     "</div>";
 
             try {

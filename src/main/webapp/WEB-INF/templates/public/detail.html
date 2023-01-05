@@ -149,7 +149,7 @@
                 </div>
                 <div class="col-6">
                   <label for="addname"
-                         class="col-form-label">Vui lòng chuyển khoản với nội dung: <strong style="color: black" th:text="${session.user.id} +'_'+ ${donation.code}"></strong></label>
+                         class="col-form-label">Vui lòng chuyển khoản với nội dung: <strong style="color: black" th:text="${session.user != null ?session.user.id : 0} +'_'+ ${donation.code}"></strong></label>
                   <img width="320px" height="320px" src="/resources/uploads/ttck.jpg">
                 </div>
               </div>
